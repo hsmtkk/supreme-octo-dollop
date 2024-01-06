@@ -1,11 +1,14 @@
 <template>
-    <h2>気象データ</h2>
     <v-container v-if="showFlag">
-        <div>{{ props.results.country }}</div>
-        <div>{{ props.results.cityName }}</div>
-        <div>{{ props.results.temperature }}</div>
-        <NuxtImg v-bind:src="`https://${props.results.icon}`" />
-        <span>{{ props.results.conditionText }}</span>
+        <v-list>
+            <v-list-item>{{ props.results.country }}</v-list-item>
+            <v-list-item>{{ props.results.country }}</v-list-item>
+            <v-list-item>{{ props.results.cityName }}</v-list-item>
+            <v-list-item>{{ props.results.temperature }}</v-list-item>
+            <v-list-item>
+                <NuxtImg v-bind:src="`https://${props.results.icon}`" />{{ props.results.conditionText }}
+            </v-list-item>
+        </v-list>
     </v-container>
 </template>
 

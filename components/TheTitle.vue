@@ -1,3 +1,5 @@
 <template>
-    <h1>Vue World Weather</h1>
+    <v-app-bar>
+        <v-app-bar-title>Vue World Weather</v-app-bar-title>
+    </v-app-bar>
 </template>
