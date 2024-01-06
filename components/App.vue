@@ -18,7 +18,7 @@ const results = reactive({
     icon: "",
 })
 
-const getWeather = async (city: string): void => {
+const getWeather = async (city: string): Promise<void> => {
     // console.log("getWeather")
     // console.log(city)
 
