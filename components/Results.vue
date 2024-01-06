@@ -2,7 +2,6 @@
     <v-container v-if="showFlag">
         <v-list>
             <v-list-item>{{ props.results.country }}</v-list-item>
-            <v-list-item>{{ props.results.country }}</v-list-item>
             <v-list-item>{{ props.results.cityName }}</v-list-item>
             <v-list-item>{{ props.results.temperature }}</v-list-item>
             <v-list-item>
