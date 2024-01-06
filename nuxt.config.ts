@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@invictus.codes/nuxt-vuetify'
+    "@invictus.codes/nuxt-vuetify", "@nuxt/image"
   ],
   runtimeConfig: {
     WEATHER_API_KEY: process.env.WEATHER_API_KEY,
