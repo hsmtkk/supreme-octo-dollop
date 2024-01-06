@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   modules: [
     '@invictus.codes/nuxt-vuetify'
   ],
+  runtimeConfig: {
+    WEATHER_API_KEY: process.env.WEATHER_API_KEY,
+  }
 })
