@@ -18,5 +18,6 @@ const emit = defineEmits<Emits>()
 
 const getWeather = (): void => {
     emit("getWeather", city.value)
+    city.value = ""
 }
 </script>
